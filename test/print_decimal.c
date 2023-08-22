@@ -2,6 +2,8 @@
 
 int print_decimal(int value)
 {
+	int count = 0;
+
 /* print '-' for negative numbers */
 	if (value < 0)
 	{
