@@ -41,7 +41,7 @@ int _printf(const char *format, ...);
 int handle_print(const char *fmt, int *i, va_list, char buffer[],
 	int flags, int width, int precision, int size);
 
-/* FUNCTIONS*/
+/***** FUNCTIONS *****/
 /* Functions to print chars and strings */
 int print_char(va_list types, char buffer[],
 	int flags, int width, int precision, int size);
@@ -104,7 +104,7 @@ int write_unsgnd(int is_negative, int ind,
 char buffer[],
 	int flags, int width, int precision, int size);
 
-/****************** UTILS ******************/
+/**** UTILS ****/
 int is_printable(char);
 int append_hexa_code(char, char[], int);
 int is_digit(char);
